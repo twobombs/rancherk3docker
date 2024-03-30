@@ -2,4 +2,4 @@
 
 rancher in k3d in docker in docker
 
-docker run --privileged twobombs/rancherk3docker --net=host bash run-rancher.sh
+docker run -ti --privileged --net=host twobombs/rancherk3docker bash run-rancher.sh
