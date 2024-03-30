@@ -11,7 +11,8 @@ k3d cluster create boxed -a 4 &
 
 sleep 10
 
-echo 'done - now go to https://localhost'
+echo 'done - give this a couple of minutes and go to https://localhost'
+echo 'glances system overview displayed in 20 seconds'
 
 sleep 20
 
