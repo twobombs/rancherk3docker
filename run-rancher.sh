@@ -10,4 +10,9 @@ echo 'start cluster'
 k3d cluster create boxed -a 4
 
 echo 'done - now go to https://localhost'
+
+sleep 20
+
+screen glances
+
 tail -f /dev/null
