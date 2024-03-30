@@ -9,7 +9,7 @@ docker run -d --restart=unless-stopped -p 80:80 -p 443:443 --privileged rancher/
 echo 'start cluster'
 k3d cluster create boxed -a 4 &
 
-sleep 10
+sleep 20
 
 echo 'done - give this a couple of minutes and go to https://localhost'
 echo 'glances system overview displayed in 20 seconds'
